@@ -1,0 +1,25 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.form :hover{
+    border: 1px solid rebeccapurple;
+}
+
+.data{
+    border: 1px solid #ff5733;
+}
+
+.data :hover{
+    border: 1px solid #e4b82d
+}
+
+.res{
+    border: 1px solid #57e217;
+}
+
+.res :hover{
+    border: 1px solid #1fe31c
+}

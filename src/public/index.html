@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <!-- <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script> -->
+    <script src="/js/fetch.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <form>
+                <p>Username:</p>
+                <input type="text" name="username" id="usernamesi">
+                <p>Email:</p>
+                <input type="text" name="email" id="emailsi">
+                <p>Password:</p>
+                <input type="text" name="password" id="passwordsi">
+                <br>
+                <button onclick="return signin()">Enviar</button>
+            </form>
+        </div>
+        <div class="form">
+            <form action="">
+                <p>Inserte el token:</p>
+                <input type="text" id="tokenme">
+                <br>
+                <button onclick="return me()">Enviar</button>
+                
+            </form>
+            <button onclick="cls()">Limpiar</button>
+        </div>
+        <div class="form">
+            <form>
+                <p>Authentication:</p>
+                <p>Email:</p>
+                <input type="text" id="email">
+                <p>Password:</p>
+                <input type="text" id="password">
+                <br>
+                <button onclick="return authenticate()">Enviar</button>
+            </form>
+        </div>
+    </div>
+    <div class="data" id="data"></div>
+    <div class="res" id="res"></div>
+    
+</body>
+</html>
