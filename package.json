@@ -19,7 +19,7 @@
   "homepage": "https://github.com/Bruno-Reyes/-ractica_JWT_NODEJS#readme",
   "dependencies": {
     "aes-js": "^3.1.2",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.2"
   },
